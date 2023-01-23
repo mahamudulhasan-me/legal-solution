@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Roboto&display=swap");
+h1 {
+  font-family: "EB Garamond", serif;
+}
+p {
+  color: #e7e7e7;
+  font-family: "Roboto", sans-serif;
+}
+input:focus {
+  outline: none;
+}
+input {
+  width: 40%;
+}
+.banner-section {
+  background-image: url(../images/Rectangle-4.png);
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  color: #fff;
+  background-color: linear-gradient(
+    180deg,
+    #111111 0%,
+    rgba(17, 17, 17, 0) 100%
+  );
+  text-align: center;
+}
