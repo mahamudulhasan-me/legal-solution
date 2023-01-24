@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Poppins:wght@500&display=swap");
+/* Garamond and Poppins font  */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Poppins:wght@400&display=swap");
+
+/* common style css style  */
 h1,
 h2,
 h3,
@@ -19,12 +22,8 @@ input:focus {
   outline: none;
 }
 input {
-  /* width: 60%; */
   outline: none;
   border: 1px solid #f3f3f3;
-}
-.contact_section form {
-  width: 47%;
 }
 .contact_section input,
 textarea {
@@ -61,6 +60,7 @@ footer a {
   margin-bottom: 0.5rem;
   font-family: "Poppins", sans-serif;
 }
+/* main section style css */
 .banner-section {
   background-image: url(../images/Rectangle5.png),
     url(../images/Rectangle-4.png);
@@ -91,7 +91,7 @@ footer a {
   align-items: center;
 }
 .send-btn {
-  margin-left: -1rem;
+  margin-left: -1.2rem;
   margin-bottom: 5px;
 }
 .accordion-item,
